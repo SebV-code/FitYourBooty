@@ -9,7 +9,7 @@ Ce document décrit le workflow Git du projet.
 Cloner le projet :
 
 ```
-git clone git@github.com:Seb613-code/fit.git
+git clone git@github.com:SebV-code/fit.git
 ```
 
 Modifier le code.

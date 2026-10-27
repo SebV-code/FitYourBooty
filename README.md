@@ -30,7 +30,7 @@ Le projet est déployé sur un **VPS Linux** et le code est versionné via **Git
 Cloner le projet :
 
 ```
-git clone git@github.com:Seb613-code/fit.git
+git clone git@github.com:SebV-code/fit.git
 cd fit
 ```
 
