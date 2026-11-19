@@ -1,24 +1,39 @@
 # FIT YOUR BOOTY
 
-Application web permettant de suivre ses données personnelles  nutritionnelles, sportives, et de santé.
+Application web permettant de suivre ses données personnelles  nutritionnelles, sportives, et de santé. 
 
-L'application se divise en trois onglets
+Site en production : [https://fit.vatinel.fr] 
+
+! Création de compte soumis à procédure Auth ! 
+
+!! Destiné à utilisation privée le site en production ne respecte pas la reglementation RGPD (clonez plutôt le repo) !! 
+
+
+### L'application se divise en trois onglets
 * Nutrition & Neat : Suivi des calories, macro, poids, steps, dépense énergétique
      répartie en 3 cards :
+    
               - formulaire d'entrée des données
-              - graphique zoomable pour le suivi chronologique des métriques
+              - graphique plotly pour le suivi chronologique des métriques
               - tableau récapitulatif des entrées avec possibilité de modification
 
 
-* Sport  : Suivi des séances de sport cardio / musculation
-            - choix des séances / exercices / métriques
-            - graphique pour le suivi chronologique des métriques selon plusieurs aggrégations.
-             
-* Santé  : Suivi de marqueurs biologiques d'analyse sanguine
+* Sport  : Suivi des séances de sport cardio / musculation.
+              
+            - choix des séances / exercices / métriques.
+            - graphique plotly pour le suivi chronologique des métriques selon plusieurs aggrégations.
+            - administration des exercices et des séances (créations personnalisables).
+  
+* Santé  : Suivi de marqueurs biologiques d'analyse sanguine.
+  
+          - formulaire d'entrée des données
+          - tableau d'édition des analyses enregistrées
+          - graphique plotly pour le suivi chronologique des marqueurs
+
 
 ## Aperçu de l'application
 
-> Les captures ci-dessous utilisent exclusivement des données fictives créées pour la démonstration. Aucune donnée personnelle ou donnée de production n'est affichée.
+> Les captures ci-dessous utilisent exclusivement des données fictives créées pour la démonstration.
 
 ### Nutrition, NEAT et suivi du poids
 
@@ -70,8 +85,8 @@ Le projet est déployé sur un **VPS Linux** et le code est versionné via **Git
 Cloner le projet :
 
 ```
-git clone git@github.com:SebV-code/fit.git
-cd fit
+git clone git@github.com:SebV-code/FitYourBooty.git
+cd FitYourBooty
 ```
 
 Installer les dépendances :
