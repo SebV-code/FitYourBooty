@@ -1,13 +1,22 @@
-# FIT
+# FIT YOUR BOOTY
 
-Application web développée avec **Laravel** permettant de suivre des données personnelles (poids, calories, objectifs) et de les visualiser sous forme de tableau et de graphique.
+Application web permettant de suivre ses données personnelles  nutritionnelles, sportives, et de santé.
 
-Le projet comprend :
+L'application se divise en trois onglets
+* Nutrition & Neat : Suivi des calories, macro, poids, steps, dépense énergétique
+     répartie en 3 cards :
+              - formulaire d'entrée des données
+              - graphique zoomable pour le suivi chronologique des métriques
+              - tableau récapitulatif des entrées avec possibilité de modification
 
-* un formulaire de saisie des données
-* un tableau listant les entrées
-* un graphique interactif
-* un système d'objectifs utilisateurs
+
+* Sport  : Suivi des séances de sport cardio / musculation
+            - choix des séances / exercices / métriques
+            - graphique pour le suivi chronologique des métriques selon plusieurs aggrégations.
+             
+* Santé  : Suivi de marqueurs biologiques d'analyse sanguine
+
+
 
 Le projet est déployé sur un **VPS Linux** et le code est versionné via **GitHub**.
 
