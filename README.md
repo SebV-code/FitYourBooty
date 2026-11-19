@@ -16,6 +16,37 @@ L'application se divise en trois onglets
              
 * Santé  : Suivi de marqueurs biologiques d'analyse sanguine
 
+## Aperçu de l'application
+
+> Les captures ci-dessous utilisent exclusivement des données fictives créées pour la démonstration. Aucune donnée personnelle ou donnée de production n'est affichée.
+
+### Nutrition, NEAT et suivi du poids
+
+<p align="center">
+  <img src="docs/screenshots/dashboard-overview.png" alt="Vue générale du tableau de bord avec des données fictives" width="49%">
+  <img src="docs/screenshots/dashboard-analytics.png" alt="Graphiques de suivi nutritionnel avec des données fictives" width="49%">
+</p>
+
+### Activité sportive
+
+<p align="center">
+  <img src="docs/screenshots/activity-overview.png" alt="Historique fictif des séances sportives" width="49%">
+  <img src="docs/screenshots/activity-analytics.png" alt="Graphique fictif de progression sportive" width="49%">
+</p>
+
+### Suivi biologique
+
+<p align="center">
+  <img src="docs/screenshots/biology-overview.png" alt="Vue générale du suivi biologique avec des données fictives" width="49%">
+  <img src="docs/screenshots/biology-analytics.png" alt="Courbe biologique construite avec des données fictives" width="49%">
+</p>
+
+### Version mobile
+
+<p align="center">
+  <img src="docs/screenshots/dashboard-mobile.png" alt="Version mobile du tableau de bord" width="390">
+</p>
+
 
 
 Le projet est déployé sur un **VPS Linux** et le code est versionné via **GitHub**.
@@ -28,7 +59,7 @@ Le projet est déployé sur un **VPS Linux** et le code est versionné via **Git
 * PHP 8+
 * MySQL / MariaDB
 * JavaScript
-* Chart.js
+* Plotly.js
 * Git / GitHub
 * VPS Linux (Ubuntu)
 
